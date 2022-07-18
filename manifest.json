@@ -1,0 +1,13 @@
+{
+    "name": "Decode Japanese Url",
+    "description": "Decode Japanese Url",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+      "default_icon": "decode-japanese-url.png"
+    },
+    "background": {
+        "service_worker": "main.js"
+    },
+    "permissions": ["activeTab","scripting"]
+  }
